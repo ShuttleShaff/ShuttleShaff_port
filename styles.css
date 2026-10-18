@@ -1,0 +1,35 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+}
+
+
+body {
+    background: url(./Wallpapers/mapleforest.png) no-repeat center / cover;
+    background-size: 100% 100%;
+}
+
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url(./Fonts/MinecraftRegular-Bmg3.otf) format(opentype),
+         url(./Fonts/MinecraftRegular-Bmg3.otf) format(opentype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+.Minecraft-text {
+    font-family: 'Minecraft', sans-serif;
+    font-size: 24px;
+    color: rgb(243, 242, 235);
+}
+
+.text/css {
+    h2 {text-decoration: line-through;}
+    h3 {text-decoration: underline;}
+}
