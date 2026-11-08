@@ -1,38 +1,54 @@
-<<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wellcome to my website</title>
-    <link rel="stylesheet" href="./styles.css"/>
-
-    <style type="text/css">
-        h3 {text-decoration: line-through;}
-        h2 {text-decoration: underline;}
-        a {text-decoration: overline;}
-
-    </style>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/styles.css">
+ </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
-        <div class="Minecraft-text", class="text/css">
-        <h1 style="background-color: rgba(238, 221, 200, 0.6);" ,style="color: burlywood;"> ShuttleShaff's Portfoilio Demo</h1>
-        <p>
-            hi wellcome to my porfoilio, my name is <strong style="color: chartreuse;"> @ShuttleShaff</strong> and this is where i share all my projects and
-            studies and i am still wor6king on moree content to share here
-        </p>
-
-        <br>
-
-        <p>
-            so i have some stuff here i love to show so here you go!
-        </p>
-
-        <br>
-
-        <h3> SpinJusi VFX</h3> <h1>I like ninjago</h1>
-        <a href="https://youtu.be/cg70XbAdlEI?t=1" target="_blank" rel="noopener">Inspired by Ninjago</a>   
+        <a class="navbar-brand" href="#">ShuttleShaff</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Concepts/Projects</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Illustration</a>
+            <li class="nav-item">
+            <a class="nav-link" href="https://www.youtube.com/@ShuttleIsTheShaff" target="_blank" rel="noopener noreferrer">Youtube</a>
+            </li>
+        </ul>
         </div>
     </div>
-</body>
+</nav>
+
+<section class="hero" id="hero">
+    <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                    <h1 class="display-2 fw-bold">ShuttleShaff</h1>
+                    <p>Hello! I'm an artist that specializes in illustration, character design, and concept art.
+                         I have a passion for games and world building.
+                          Welcome to my homepage!</p>
+                </div>
+                <div class="col-sm-6 home-img"> 
+                    <img src="./assets/Screenshot_2026-06-11_124625-1.png" class="img-fluid" alt="Artwork">
+                </div>
+            </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
 </html>

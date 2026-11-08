@@ -1,0 +1,63 @@
+h1 {
+  font-family: Inter, monospace, sans-serif;
+  font-weight: 550;
+  font-size: 1.9em;
+  /* letter-spacing: 0.1em; */
+}
+
+h2 {
+  font-family: Inter, monospace, sans-serif;
+  font-weight: 600;
+  font-size: 1.6em;
+}
+h3 {
+  font-family: Inter, monospace, sans-serif;
+  font-weight: 450;
+  font-size: 1.3em;
+}
+   
+
+   
+   /* NAVBAR */
+p {
+    color: #f5e4e4;
+}
+    .navbar-nav .nav-link {
+        color: #f8f8f8;
+        font-size: 1.1 rem;
+    }
+.navbar {
+    background-color: rgb(14, 13, 13)
+}
+
+section.hero {
+    background-color: rgb(134, 90, 45);
+    background-image: url('../assets/wallpaper/intaria-triple.webp');
+    background-size: cover;
+    padding: 72px 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar-nav .nav-item {
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    section.hero {
+        text-align: center;
+    }
+
+    section.hero img{
+        width: 70px;
+    }
+}
+
+.home-img {
+    border-radius: 80%;
+}
+
+.home-img img{
+    width: 70vw;
+    border-radius: 50%;;
+}
